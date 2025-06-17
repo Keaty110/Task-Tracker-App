@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, onSnapshot, addDoc, serverTimestamp, doc, getDoc } from 'firebase/firestore';
 
+
 // --- Firebase Configuration ---
 // This configuration is automatically provided by the environment.
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {
